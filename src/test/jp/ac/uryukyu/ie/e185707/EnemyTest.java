@@ -5,9 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class EnemyTest {
-    /**
-     * 「死んでる状態では攻撃できない」ことを確認。
-     */
     @Test
     public void attack() {
         int heroHP = 10;
